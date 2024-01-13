@@ -1,0 +1,66 @@
+.wireframe {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+}
+
+.wireframe .overlap-wrapper {
+    background-color: #ffffff;
+    height: 1024px;
+    overflow: hidden;
+    width: 1440px;
+}
+
+.wireframe .overlap-2 {
+    height: 1033px;
+    left: -7px;
+    position: relative;
+    top: -8px;
+    width: 1450px;
+}
+
+.wireframe .rectangle {
+    background-color: #d9d9d9;
+    height: 144px;
+    left: 236px;
+    position: absolute;
+    top: 356px;
+    width: 982px;
+}
+
+.wireframe .button {
+    background-color: #d9d9d9;
+    height: 60px;
+    left: 583px;
+    position: absolute;
+    top: 631px;
+    width: 287px;
+}
+
+.wireframe .dare-to-enter-instance {
+    left: 627px !important;
+    position: absolute !important;
+    top: 646px !important;
+}
+
+.wireframe .vectors-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+}
+
+.wireframe .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 64px;
+    font-weight: 600;
+    left: 415px;
+    letter-spacing: 5.12px;
+    line-height: 78px;
+    position: absolute;
+    text-align: center;
+    top: 392px;
+    white-space: nowrap;
+}

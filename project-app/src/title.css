@@ -1,0 +1,108 @@
+* {
+    box-sizing: border-box;
+    margin: 8px;
+    padding: 20px;
+
+}
+
+
+.title {
+    background-color: #120e0e;
+    display: flex;
+    flex-direction: row;
+    margin:auto;
+    padding: 20px;
+    width:fit-content;
+    height:fit-content;
+
+}
+
+.title h1 {
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 10px rgba(74, 9, 9, 0.3);
+}   
+.link {
+    justify-content: center;
+    font-size: 1.5rem;
+}
+
+
+
+.title .overlap-wrapper {
+    background-color: #ffffff;
+    height: 1024px;
+    overflow: hidden;
+    width: 1440px;
+}
+
+.title .overlap-2 {
+    height: 1033px;
+    left: -7px;
+    position: relative;
+    top: -8px;
+    width: 1450px;
+}
+
+.title .rectangle {
+    background-color: #d9d9d9;
+    height: 144px;
+    left: 236px;
+    position: absolute;
+    top: 356px;
+    width: 982px;
+}
+
+.title .button {
+    background-color: #eef7f5;
+    height: 60px;
+    left: 583px;
+    position: absolute;
+    top: 631px;
+    width: 287px;
+    letter-spacing: 4.56px;
+}
+
+.title Link .dare-to-enter-instance {
+    left: 627px !important;
+    position: absolute !important;
+    top: 646px !important;
+}
+
+
+
+
+.title .text-wrapper-2 {
+    color: #000000;
+    font-family: "Inter-SemiBold", Helvetica;
+    font-size: 64px;
+    font-weight: 600;
+    left: 415px;
+    letter-spacing: 5.12px;
+    line-height: 78px;
+    position: absolute;
+    text-align: center;
+    top: 392px;
+    white-space: nowrap;
+}
+
+.title .vectors-instance {
+    left: 0 !important;
+    position: absolute !important;
+    top: 0 !important;
+    background-image: url('./photo/vectors.png');
+  }
+
+  
+  
+
+  
+  
+  
+  
+  

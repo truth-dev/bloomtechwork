@@ -1,0 +1,25 @@
+*{
+    margin: 1rem;
+    padding: 1rem;
+    box-sizing: border-box;
+    
+
+   
+}
+
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.portfolio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem;
+    padding: 2rem;
+}
+
+
