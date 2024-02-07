@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Header({ cart = [] }) { // Default cart to an empty array if it's not provided
   const itemCount = cart.reduce((total, item) => total + item.quantity, 0);
-  
+  console.log('cart:', itemCount)
   return (
     <header>
       <nav>

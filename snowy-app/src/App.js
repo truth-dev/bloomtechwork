@@ -27,6 +27,7 @@ export default function App() {
 
   const addCart =(product) => {
     setCart(current => {
+      console.log(current, product)
       const productInCart = current.find(item => item.id === product.id);
       if (productInCart) {
         return current.map(item =>
