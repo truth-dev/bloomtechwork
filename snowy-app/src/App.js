@@ -47,7 +47,7 @@ export default function App() {
       {lastAddedItem && <Notification item={lastAddedItem} />}
       <Router>
           <div className="App">
-              <Header />
+              <Header cart={cart} />
               <Routes>
                   <Route path="/" element={<Home />} />
                   <Route path="/about" element={<About />} />
@@ -60,6 +60,7 @@ export default function App() {
               </Routes>
           </div>
       </Router>
+     
   </div>
      
      

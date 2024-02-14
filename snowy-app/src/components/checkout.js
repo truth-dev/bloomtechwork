@@ -5,7 +5,7 @@ function Checkout(){
     return (
         <section id="checkout">
         <h2>Checkout</h2>
-      
+         
         </section>
     );
 }
