@@ -1,15 +1,12 @@
 import React from 'react';
 import '../style.css';
-import backgroundImage from '../images/snowym.jpg';
 import k10bumper from '../images/k10bumper.jpg';
 
 function Home() {
     return (
       <div className="home">
-        <h1>Welcome to Snowy Peaks Off-Road & Fabrication</h1>
         <p>Independently Owned and Operated </p>
         <a href="#contact" className="cta-button">Contact Us</a>
-        <div className="home-image" style={{ backgroundImage: `url(${backgroundImage})` }}></div>
         <section className="home-content">
           <div className='img-container'>
             <img src={k10bumper} alt='k10bumper'/>

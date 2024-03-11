@@ -5,45 +5,24 @@ body, h1, h2, h3, ul, li, p {
   }
   
   /* Set a background color and font styles for the entire page */
-  body {
+   body {
     font-family: Arial, sans-serif;
-    background-color: #b8d2d5;
-    color: #080505;
+    background-color: #e0e3e3;
+    color: #0a0505;
+  
 
    
     
   }
-  
-  /* Style the header/navigation bar */
-  header {
-    background-color: #333;
-    color: #fff;
-    padding: 20px 10px;
-  }
-  
-  nav ul {
-    list-style: none;
+  .home {
+   height: 80rem;
     display: flex;
-    justify-content: space-around;
-    padding: 0;
+    flex-direction: column;
+    align-items: center;
+   
   }
   
-  nav li {
-    margin: 0;
-  }
-  
-  nav a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: bold;
-    transition: color 0.3s;
-  }
-  
-  nav a:hover {
-    color: #ff9900;
-  }
-  
-  /* Style sections and containers */
+ 
   .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -58,7 +37,7 @@ body, h1, h2, h3, ul, li, p {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
   }
   
-  /* Style buttons */
+ 
   .button {
     background-color: #ff9900;
     color: #fff;
@@ -82,14 +61,16 @@ body, h1, h2, h3, ul, li, p {
     text-decoration: underline;
   }
 
+
+
 .home .home-content h2 {
   /* Add your styles here */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  margin: 3px ;
-  padding: 1rem;
+  margin: 100px ;
+  padding: 50px;
   border: 5px  ;
 }
  .home .home-content p {
@@ -97,31 +78,99 @@ body, h1, h2, h3, ul, li, p {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 10px auto; /* Updated margin value */
-  padding: 50px;
-  border: 10px ;
-  border-radius: 2rem;
-  height: 6rem;
+  height: 2rem;
   width: 40rem;
+  font-size: 1.2rem; 
+  font-family:'Lucida Sans';
+  font-style: oblique;
+  color:rgb(58, 58, 53)
 }
 
 
-img {
-  image-orientation: from-image; 
+
+.img-container {
+  position: absolute; /* Fix the position relative to the viewport */
+  bottom: 0; 
+  left: 0; 
+  margin: 40px; 
+  padding: 15px; 
+  border-radius: 50%;
+  display: flex; 
+  align-items: center; 
+  justify-content: center; 
+  z-index: 1000;
+}
+
+.img-container img {
+  border: 15px; 
+  border-radius: 5%;
+  display: block; 
+  max-width: 70%; 
+  height: auto; 
+}
+ .about{
   display: flex;
+  flex-direction: column;
+  align-items: center;
   justify-content: center;
-  position: absolute; 
-  bottom: 0;
-  left: 0;
-  z-index:10;
-  margin: 40px ;
-  padding: 15px;
-  border: 15px  ;
+  margin: 100px;
+  padding: 100px;
+  border: 5px  ;
   border-radius: 2rem;
-
-
+  color: #0a0505;
+  font-size: 1.2rem; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 
+  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  color:rgb(58, 58, 53)
 }
 
-.home-image .style {
+.services h2 {
+  color:#0a0505;
+  font-size: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content:center;
+  margin: 100px;
+  padding: 100px;
   
+  
+}
+
+
+
+.services-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 10px;
+  padding: 10px;
+  border: 5px  ;
+  border-radius: 2rem;
+  color: #0a0505;
+  font-size: 1.2rem; 
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 
+  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-style: oblique;
+  color:rgb(58, 58, 53)
+}
+.service-card {
+  border: 1px solid #0c0707;
+  border-radius: 8px;
+  padding: 80px;
+  width: 200px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display:flex;
+  flex-direction: column; 
+  align-items:center; 
+
+}
+ #contact h2 {
+  margin:100px;
+  padding: 100px;
+  color: black;
+  font-size: 1.2rem;
+  font-family:'Lucida Sans', 'Lucida Sans Regular',
+
 }

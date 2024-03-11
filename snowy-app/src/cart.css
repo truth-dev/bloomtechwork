@@ -1,0 +1,27 @@
+ .cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 100px;
+
+} 
+.cart-items {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    padding: 10px;
+    border: 5px  ;
+    border-radius: 2rem;
+    color: #0a0505;
+    font-size: 1.2rem; 
+    border: 1px solid #0c0707;
+ 
+}
+.total {
+    margin: 10px;
+    padding:10px;
+}

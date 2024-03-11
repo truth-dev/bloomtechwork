@@ -1,6 +1,9 @@
 import React from 'react';
 
+
 const CartItem = ({ item, updateQuantity, removeItem }) => {
+
+ 
     return (
       <div className="cart-item">
         <img src={item.image} alt={item.name} style={{ width: '50px' }} />
